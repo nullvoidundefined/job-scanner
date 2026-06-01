@@ -1,0 +1,247 @@
+<?xml version="1.0"?>
+<edgarSubmission>
+
+    <schemaVersion>X0708</schemaVersion>
+
+    <submissionType>D</submissionType>
+
+    <testOrLive>LIVE</testOrLive>
+
+    <primaryIssuer>
+        <cik>0001866763</cik>
+        <entityName>NEWCASTLE NETWORK FUND I LP</entityName>
+        <issuerAddress>
+            <street1>47 Church Street</street1>
+            <city>WELLESLEY</city>
+            <stateOrCountry>MA</stateOrCountry>
+            <stateOrCountryDescription>MASSACHUSETTS</stateOrCountryDescription>
+            <zipCode>024812</zipCode>
+        </issuerAddress>
+        <issuerPhoneNumber>(617) 640-7020</issuerPhoneNumber>
+        <jurisdictionOfInc>DELAWARE</jurisdictionOfInc>
+        <issuerPreviousNameList>
+            <value>None</value>
+        </issuerPreviousNameList>
+        <edgarPreviousNameList>
+            <value>None</value>
+        </edgarPreviousNameList>
+        <entityType>Limited Partnership</entityType>
+        <yearOfInc>
+            <withinFiveYears>true</withinFiveYears>
+            <value>2021</value>
+        </yearOfInc>
+    </primaryIssuer>
+
+    <relatedPersonsList>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Christopher</firstName>
+                <lastName>Casgar</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>47 Church Street</street1>
+                <city>Wellesley</city>
+                <stateOrCountry>MA</stateOrCountry>
+                <stateOrCountryDescription>MASSACHUSETTS</stateOrCountryDescription>
+                <zipCode>02482</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>N/A</firstName>
+                <lastName>Newcastle Network GP I LP</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>47 Church Street</street1>
+                <city>Wellesley</city>
+                <stateOrCountry>MA</stateOrCountry>
+                <stateOrCountryDescription>MASSACHUSETTS</stateOrCountryDescription>
+                <zipCode>02482</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Promoter</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+    </relatedPersonsList>
+
+    <offeringData>
+        <industryGroup>
+            <industryGroupType>Pooled Investment Fund</industryGroupType>
+            <investmentFundInfo>
+                <investmentFundType>Private Equity Fund</investmentFundType>
+                <is40Act>false</is40Act>
+            </investmentFundInfo>
+        </industryGroup>
+        <issuerSize>
+            <revenueRange>Decline to Disclose</revenueRange>
+        </issuerSize>
+        <federalExemptionsExclusions>
+            <item>06b</item>
+            <item>3C</item>
+            <item>3C.1</item>
+            <item>3C.7</item>
+        </federalExemptionsExclusions>
+        <typeOfFiling>
+            <newOrAmendment>
+                <isAmendment>false</isAmendment>
+            </newOrAmendment>
+            <dateOfFirstSale>
+                <yetToOccur>true</yetToOccur>
+            </dateOfFirstSale>
+        </typeOfFiling>
+        <durationOfOffering>
+            <moreThanOneYear>false</moreThanOneYear>
+        </durationOfOffering>
+        <typesOfSecuritiesOffered>
+            <isEquityType>true</isEquityType>
+            <isPooledInvestmentFundType>true</isPooledInvestmentFundType>
+        </typesOfSecuritiesOffered>
+        <businessCombinationTransaction>
+            <isBusinessCombinationTransaction>false</isBusinessCombinationTransaction>
+            <clarificationOfResponse></clarificationOfResponse>
+        </businessCombinationTransaction>
+        <minimumInvestmentAccepted>0</minimumInvestmentAccepted>
+        <salesCompensationList>
+            <recipient>
+                <recipientName>GRAFINE CAPITAL PARTNERS LLC</recipientName>
+                <recipientCRDNumber>302046</recipientCRDNumber>
+                <associatedBDName>None</associatedBDName>
+                <associatedBDCRDNumber>None</associatedBDCRDNumber>
+                <recipientAddress>
+                    <street1>654 Madison Avenue</street1>
+                    <street2>Suite 1201</street2>
+                    <city>New York</city>
+                    <stateOrCountry>NY</stateOrCountry>
+                    <stateOrCountryDescription>NEW YORK</stateOrCountryDescription>
+                    <zipCode>10065</zipCode>
+                </recipientAddress>
+                <statesOfSolicitationList>
+                    <state>AK</state>
+                    <description>ALASKA</description>
+                    <state>AZ</state>
+                    <description>ARIZONA</description>
+                    <state>CA</state>
+                    <description>CALIFORNIA</description>
+                    <state>CT</state>
+                    <description>CONNECTICUT</description>
+                    <state>DE</state>
+                    <description>DELAWARE</description>
+                    <state>FL</state>
+                    <description>FLORIDA</description>
+                    <state>GA</state>
+                    <description>GEORGIA</description>
+                    <state>HI</state>
+                    <description>HAWAII</description>
+                    <state>IL</state>
+                    <description>ILLINOIS</description>
+                    <state>IN</state>
+                    <description>INDIANA</description>
+                    <state>KS</state>
+                    <description>KANSAS</description>
+                    <state>LA</state>
+                    <description>LOUISIANA</description>
+                    <state>MD</state>
+                    <description>MARYLAND</description>
+                    <state>MA</state>
+                    <description>MASSACHUSETTS</description>
+                    <state>MI</state>
+                    <description>MICHIGAN</description>
+                    <state>MO</state>
+                    <description>MISSOURI</description>
+                    <state>NH</state>
+                    <description>NEW HAMPSHIRE</description>
+                    <state>NJ</state>
+                    <description>NEW JERSEY</description>
+                    <state>NM</state>
+                    <description>NEW MEXICO</description>
+                    <state>NY</state>
+                    <description>NEW YORK</description>
+                    <state>NC</state>
+                    <description>NORTH CAROLINA</description>
+                    <state>OH</state>
+                    <description>OHIO</description>
+                    <state>OR</state>
+                    <description>OREGON</description>
+                    <state>PA</state>
+                    <description>PENNSYLVANIA</description>
+                    <state>RI</state>
+                    <description>RHODE ISLAND</description>
+                    <state>TN</state>
+                    <description>TENNESSEE</description>
+                    <state>TX</state>
+                    <description>TEXAS</description>
+                    <state>VA</state>
+                    <description>VIRGINIA</description>
+                    <state>WA</state>
+                    <description>WASHINGTON</description>
+                    <state>WI</state>
+                    <description>WISCONSIN</description>
+                </statesOfSolicitationList>
+                <foreignSolicitation>false</foreignSolicitation>
+            </recipient>
+            <recipient>
+                <recipientName>Houlihan Lokey Capital, Inc.</recipientName>
+                <recipientCRDNumber>17708</recipientCRDNumber>
+                <associatedBDName>None</associatedBDName>
+                <associatedBDCRDNumber>None</associatedBDCRDNumber>
+                <recipientAddress>
+                    <street1>10250 Constellation Boulevard</street1>
+                    <street2>5th Floor</street2>
+                    <city>Los Angeles</city>
+                    <stateOrCountry>CA</stateOrCountry>
+                    <stateOrCountryDescription>CALIFORNIA</stateOrCountryDescription>
+                    <zipCode>90067</zipCode>
+                </recipientAddress>
+                <statesOfSolicitationList>
+                    <value>All States</value>
+                </statesOfSolicitationList>
+                <foreignSolicitation>false</foreignSolicitation>
+            </recipient>
+        </salesCompensationList>
+        <offeringSalesAmounts>
+            <totalOfferingAmount>Indefinite</totalOfferingAmount>
+            <totalAmountSold>0</totalAmountSold>
+            <totalRemaining>Indefinite</totalRemaining>
+            <clarificationOfResponse>Issuer had a previous fundraise that raised $125 million and had a final close in February
+2024.</clarificationOfResponse>
+        </offeringSalesAmounts>
+        <investors>
+            <hasNonAccreditedInvestors>false</hasNonAccreditedInvestors>
+            <totalNumberAlreadyInvested>0</totalNumberAlreadyInvested>
+        </investors>
+        <salesCommissionsFindersFees>
+            <salesCommissions>
+                <dollarAmount>0</dollarAmount>
+                <isEstimate>true</isEstimate>
+            </salesCommissions>
+            <findersFees>
+                <dollarAmount>0</dollarAmount>
+                <isEstimate>true</isEstimate>
+            </findersFees>
+            <clarificationOfResponse>Placement agents have been retained and will be apportioned a fee to be determined based on certain commitments raised.</clarificationOfResponse>
+        </salesCommissionsFindersFees>
+        <useOfProceeds>
+            <grossProceedsUsed>
+                <dollarAmount>0</dollarAmount>
+                <isEstimate>true</isEstimate>
+            </grossProceedsUsed>
+            <clarificationOfResponse>The general partner of the Issuer is entitled to carried interest. An affiliate of the general
+partner is entitled to a management fee.</clarificationOfResponse>
+        </useOfProceeds>
+        <signatureBlock>
+            <authorizedRepresentative>false</authorizedRepresentative>
+            <signature>
+                <issuerName>NEWCASTLE NETWORK FUND I LP</issuerName>
+                <signatureName>Christopher Casgar</signatureName>
+                <nameOfSigner>Christopher Casgar</nameOfSigner>
+                <signatureTitle>Managing Member of the GP of the GP of the Issuer</signatureTitle>
+                <signatureDate>2026-04-30</signatureDate>
+            </signature>
+        </signatureBlock>
+    </offeringData>
+</edgarSubmission>

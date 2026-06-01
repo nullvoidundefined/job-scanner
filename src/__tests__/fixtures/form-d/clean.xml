@@ -1,0 +1,241 @@
+<?xml version="1.0"?>
+<edgarSubmission>
+
+    <schemaVersion>X0708</schemaVersion>
+
+    <submissionType>D</submissionType>
+
+    <testOrLive>LIVE</testOrLive>
+
+    <primaryIssuer>
+        <cik>0001086745</cik>
+        <entityName>Fabric.AI, Inc.</entityName>
+        <issuerAddress>
+            <street1>1185 AVENUE OF THE AMERICAS</street1>
+            <city>NEW YORK</city>
+            <stateOrCountry>NY</stateOrCountry>
+            <stateOrCountryDescription>NEW YORK</stateOrCountryDescription>
+            <zipCode>10036</zipCode>
+        </issuerAddress>
+        <issuerPhoneNumber>(512) 994-4917</issuerPhoneNumber>
+        <jurisdictionOfInc>DELAWARE</jurisdictionOfInc>
+        <issuerPreviousNameList>
+            <value>None</value>
+        </issuerPreviousNameList>
+        <edgarPreviousNameList>
+            <previousName>StableX Technologies, Inc.</previousName>
+            <previousName>AYRO, Inc.</previousName>
+            <previousName>DropCar, Inc.</previousName>
+        </edgarPreviousNameList>
+        <entityType>Corporation</entityType>
+        <yearOfInc>
+            <overFiveYears>true</overFiveYears>
+        </yearOfInc>
+    </primaryIssuer>
+
+    <relatedPersonsList>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Joshua</firstName>
+                <lastName>Silverman</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>1185 Avenue of the Americas</street1>
+                <city>NEW YORK</city>
+                <stateOrCountry>NY</stateOrCountry>
+                <stateOrCountryDescription>NEW YORK</stateOrCountryDescription>
+                <zipCode>10036</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification>Chief Executive Officer</relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Joseph</firstName>
+                <lastName>Ramelli</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>1185 Avenue of the Americas</street1>
+                <city>NEW YORK</city>
+                <stateOrCountry>NY</stateOrCountry>
+                <stateOrCountryDescription>NEW YORK</stateOrCountryDescription>
+                <zipCode>10036</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification>Chief Financial Officer</relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Gilbert</firstName>
+                <lastName>Villarreal</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>1185 Avenue of the Americas</street1>
+                <city>NEW YORK</city>
+                <stateOrCountry>NY</stateOrCountry>
+                <stateOrCountryDescription>NEW YORK</stateOrCountryDescription>
+                <zipCode>10036</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification>President of AYRO Operating Company</relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Sebastian</firstName>
+                <lastName>Giordano</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>1185 Avenue of the Americas</street1>
+                <city>NEW YORK</city>
+                <stateOrCountry>NY</stateOrCountry>
+                <stateOrCountryDescription>NEW YORK</stateOrCountryDescription>
+                <zipCode>10036</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Zvi</firstName>
+                <lastName>Joseph</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>1185 Avenue of the Americas</street1>
+                <city>NEW YORK</city>
+                <stateOrCountry>NY</stateOrCountry>
+                <stateOrCountryDescription>NEW YORK</stateOrCountryDescription>
+                <zipCode>10036</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Greg</firstName>
+                <lastName>Schiffman</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>1185 Avenue of the Americas</street1>
+                <city>NEW YORK</city>
+                <stateOrCountry>NY</stateOrCountry>
+                <stateOrCountryDescription>NEW YORK</stateOrCountryDescription>
+                <zipCode>10036</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Wayne</firstName>
+                <lastName>Walker</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>1185 Avenue of the Americas</street1>
+                <city>NEW YORK</city>
+                <stateOrCountry>NY</stateOrCountry>
+                <stateOrCountryDescription>NEW YORK</stateOrCountryDescription>
+                <zipCode>10036</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+        </relatedPersonInfo>
+    </relatedPersonsList>
+
+    <offeringData>
+        <industryGroup>
+            <industryGroupType>Other</industryGroupType>
+        </industryGroup>
+        <issuerSize>
+            <revenueRange>Decline to Disclose</revenueRange>
+        </issuerSize>
+        <federalExemptionsExclusions>
+            <item>06b</item>
+        </federalExemptionsExclusions>
+        <typeOfFiling>
+            <newOrAmendment>
+                <isAmendment>false</isAmendment>
+            </newOrAmendment>
+            <dateOfFirstSale>
+                <value>2026-04-27</value>
+            </dateOfFirstSale>
+        </typeOfFiling>
+        <durationOfOffering>
+            <moreThanOneYear>false</moreThanOneYear>
+        </durationOfOffering>
+        <typesOfSecuritiesOffered>
+            <isEquityType>true</isEquityType>
+            <isOptionToAcquireType>true</isOptionToAcquireType>
+            <isSecurityToBeAcquiredType>true</isSecurityToBeAcquiredType>
+        </typesOfSecuritiesOffered>
+        <businessCombinationTransaction>
+            <isBusinessCombinationTransaction>false</isBusinessCombinationTransaction>
+        </businessCombinationTransaction>
+        <minimumInvestmentAccepted>0</minimumInvestmentAccepted>
+        <salesCompensationList>
+            <recipient>
+                <recipientName>GP Nurmenkari Inc.</recipientName>
+                <recipientCRDNumber>000153480</recipientCRDNumber>
+                <associatedBDName>None</associatedBDName>
+                <associatedBDCRDNumber>None</associatedBDCRDNumber>
+                <recipientAddress>
+                    <street1>22 Elizabeth Street</street1>
+                    <city>Norwalk</city>
+                    <stateOrCountry>CT</stateOrCountry>
+                    <stateOrCountryDescription>CONNECTICUT</stateOrCountryDescription>
+                    <zipCode>06854</zipCode>
+                </recipientAddress>
+                <statesOfSolicitationList>
+                    <state>NY</state>
+                    <description>NEW YORK</description>
+                </statesOfSolicitationList>
+                <foreignSolicitation>false</foreignSolicitation>
+            </recipient>
+        </salesCompensationList>
+        <offeringSalesAmounts>
+            <totalOfferingAmount>73075000</totalOfferingAmount>
+            <totalAmountSold>73075000</totalAmountSold>
+            <totalRemaining>0</totalRemaining>
+            <clarificationOfResponse>The Company issued shares of Series K Convertible Preferred Stock and warrants for an aggregate offering price of $21,500,000. The Company also issued 51,575 shares of Series J Convertible Preferred Stock, with a stated value of $1,000 per share.</clarificationOfResponse>
+        </offeringSalesAmounts>
+        <investors>
+            <hasNonAccreditedInvestors>false</hasNonAccreditedInvestors>
+            <totalNumberAlreadyInvested>15</totalNumberAlreadyInvested>
+        </investors>
+        <salesCommissionsFindersFees>
+            <salesCommissions>
+                <dollarAmount>1720000</dollarAmount>
+            </salesCommissions>
+            <findersFees>
+                <dollarAmount>0</dollarAmount>
+            </findersFees>
+            <clarificationOfResponse>Issuer issued to placement agents (or their designees) warrants to purchase up to 685,259 shares at an exercise price of $2.51 (subject to price-based adjustment) under Section 4(a)(2)</clarificationOfResponse>
+        </salesCommissionsFindersFees>
+        <useOfProceeds>
+            <grossProceedsUsed>
+                <dollarAmount>0</dollarAmount>
+            </grossProceedsUsed>
+            <clarificationOfResponse></clarificationOfResponse>
+        </useOfProceeds>
+        <signatureBlock>
+            <authorizedRepresentative>false</authorizedRepresentative>
+            <signature>
+                <issuerName>Fabric.AI, Inc.</issuerName>
+                <signatureName>/s/ Joshua Silverman</signatureName>
+                <nameOfSigner>Joshua Silverman</nameOfSigner>
+                <signatureTitle>Chief Executive Officer</signatureTitle>
+                <signatureDate>2026-05-01</signatureDate>
+            </signature>
+        </signatureBlock>
+    </offeringData>
+</edgarSubmission>

@@ -1,0 +1,22 @@
+Description:           Daily Index of EDGAR Dissemination Feed
+Last Data Received:    May 1, 2026
+Comments:              webmaster@sec.gov
+Anonymous FTP:         ftp://ftp.sec.gov/edgar/
+ 
+CIK|Company Name|Form Type|Date Filed|File Name
+--------------------------------------------------------------------------------
+1086745|Fabric.AI, Inc.|D|20260501|edgar/data/1086745/0001493152-26-020911.txt
+1238492|Coatue Qualified Partners, L.P.|D/A|20260501|edgar/data/1238492/0000919574-26-002537.txt
+1238493|COATUE OFFSHORE FUND LTD|D/A|20260501|edgar/data/1238493/0000919574-26-002534.txt
+1309484|CMWA Micro Cap Fund LLC|D|20260501|edgar/data/1309484/0001309484-26-000005.txt
+1342325|Carlin Gold Corp|D|20260501|edgar/data/1342325/0000912282-26-000665.txt
+1448291|Pacific Rock Partners, L.P.|D/A|20260501|edgar/data/1448291/0001448291-26-000001.txt
+1537953|Preceptis Medical, Inc.|D|20260501|edgar/data/1537953/0000912282-26-000663.txt
+1675769|Shield AI Inc|D|20260501|edgar/data/1675769/0001675769-26-000001.txt
+1716111|NeuroGeneces, Inc.|D|20260501|edgar/data/1716111/0001716111-26-000006.txt
+1744012|SAYARI LABS INC.|D|20260501|edgar/data/1744012/0001744012-26-000002.txt
+1866763|NEWCASTLE NETWORK FUND I LP|D|20260501|edgar/data/1866763/0001866763-26-000003.txt
+1858523|Persefoni AI Inc.|D|20260501|edgar/data/1858523/0001858523-26-000003.txt
+1932867|TheShape Sensing Company, Inc.|D|20260501|edgar/data/1932867/0001932867-26-000001.txt
+1938569|Palomino Laboratories Inc.|D|20260501|edgar/data/1938569/0001493152-26-020909.txt
+1989361|KONSTRUCTIQ, INC.|D|20260501|edgar/data/1989361/0001989361-26-000003.txt
