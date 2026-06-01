@@ -2,10 +2,9 @@
 
 ## 1. Last commit
 
-- Branch `phase-1-form-d-radar`: `0cca0dd` feat: Railway cron and deploy config for phase 1
-- Branch `main`: `4c29830` docs: phase 1-3 implementation plans
+- Branch `main`: `d541c6a` feat: Phase 1 Form D radar end-to-end (squash of `phase-1-form-d-radar`, Tasks 1-13). Pushed.
 - Remote: `git@github.com:nullvoidundefined/job-scanner.git` (public).
-- **The 7 new Phase 1 commits (bf29a16..0cca0dd) are NOT pushed yet** (holding push per batch-deploy preference; push when ready to deploy).
+- `phase-1-form-d-radar` is squash-merged; safe to delete (local + origin).
 
 ## 2. Production state
 
