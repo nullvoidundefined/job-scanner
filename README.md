@@ -25,7 +25,7 @@ weekly digest surfaces the top of the outreach queue.
 - Express 5 + TypeScript (single service)
 - PostgreSQL (raw SQL via `pg`, node-pg-migrate for migrations)
 - Anthropic Claude (Haiku) for AI-native classification (Phase 2)
-- Railway cron for orchestration; Resend for the digest; Telegram for alerts
+- Railway cron for orchestration; Resend for the digest and failure alerts
 - Single-secret HTTP Basic gate (one user; the CRM holds contact PII)
 
 ## Development
@@ -69,7 +69,7 @@ useful. ATS discovery, full scoring/CRM, and enrichment follow.
 
 Deployed as a Docker image (`Dockerfile`) to Railway: one always-on web service
 (health probe) plus separate Railway cron services, each pointed at a start
-command. A failing job fires a Telegram alert via the `runJob` heartbeat and
+command. A failing job emails an alert via the `runJob` heartbeat and
 exits non-zero.
 
 | Job             | Schedule          | Start command                     |
@@ -91,7 +91,7 @@ src/
   middleware/          basicAuthGate, errorHandler
   radar/               Pure logic + IO: parse, filter, scoring, edgar-client,
                        ingest orchestration, PgRadarDB, queries, digest
-  services/            telegram (alerts), email (Resend digest)
+  services/            email (Resend: digest + failure alerts)
   jobs/                runJob heartbeat + cron entrypoints
   app.ts               Express app (health probes + gate)
   index.ts             Server bootstrap

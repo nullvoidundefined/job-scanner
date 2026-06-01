@@ -23,10 +23,6 @@ const envSchema = z.object({
   RESEND_FROM_EMAIL: z.string().default('radar@example.com'),
   DIGEST_TO_EMAIL: z.string().optional(),
 
-  // Telegram alerts (heartbeat, board-health, hot-match). Optional.
-  TELEGRAM_BOT_TOKEN: z.string().optional(),
-  TELEGRAM_CHAT_ID: z.string().optional(),
-
   // AI-native enrichment (Phase 2, Anthropic Haiku). Optional.
   ANTHROPIC_API_KEY: z.string().optional(),
 });

@@ -1,5 +1,5 @@
 import { logger } from 'app/utils/logger.js';
-import { sendAlert } from 'app/services/telegram.js';
+import { sendAlert } from 'app/services/email.js';
 
 // Heartbeat wrapper for cron entrypoints. A job that throws fires a Telegram
 // alert and sets a non-zero exit code so the failure is visible.

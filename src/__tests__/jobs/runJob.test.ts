@@ -1,5 +1,5 @@
 import { runJob } from 'app/jobs/runJob.js';
-import * as telegram from 'app/services/telegram.js';
+import * as email from 'app/services/email.js';
 import { afterEach, describe, expect, it, vi } from 'vitest';
 
 afterEach(() => {
@@ -9,7 +9,7 @@ afterEach(() => {
 
 describe('runJob', () => {
   it('alerts and sets a non-zero exit code when the job throws', async () => {
-    const alert = vi.spyOn(telegram, 'sendAlert').mockResolvedValue();
+    const alert = vi.spyOn(email, 'sendAlert').mockResolvedValue();
     await runJob('edgar-ingest', async () => {
       throw new Error('boom');
     });
@@ -19,7 +19,7 @@ describe('runJob', () => {
   });
 
   it('does not alert and leaves exit code 0 on success', async () => {
-    const alert = vi.spyOn(telegram, 'sendAlert').mockResolvedValue();
+    const alert = vi.spyOn(email, 'sendAlert').mockResolvedValue();
     await runJob('edgar-ingest', async () => {});
     expect(alert).not.toHaveBeenCalled();
     expect(process.exitCode ?? 0).toBe(0);

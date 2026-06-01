@@ -30,10 +30,33 @@ always-on web service yet (deferred to Phase 3 CRM). Approx cost: ~$5-10/mo
 | `APP_SECRET`     | generated (`openssl rand -hex 32`); required by env.ts at startup |
 | `SEC_USER_AGENT` | `job-scanner ian.greenough.developer@gmail.com`                   |
 
-Deferred (digest + alerts no-op until set): `RESEND_API_KEY`, `RESEND_FROM_EMAIL`,
-`DIGEST_TO_EMAIL`, `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`. Add later with
-`railway variables -s weekly-digest --set "RESEND_API_KEY=..."` etc. Railway
-variables are per-service; set on the service that uses them.
+### Email (Resend): digest + heartbeat alerts
+
+Both the weekly digest and the `runJob` failure heartbeat send through Resend, so
+every service that runs a job needs the Resend vars to alert on failure (not just
+`weekly-digest`). Railway variables are per-service; set on each.
+
+| Var                 | Value                                                              | Needed on                       |
+| ------------------- | ------------------------------------------------------------------ | ------------------------------- |
+| `RESEND_API_KEY`    | Resend key (secret)                                                | `edgar-ingest`, `weekly-digest` |
+| `RESEND_FROM_EMAIL` | `onboarding@resend.dev` (test domain) or a verified-domain address | both                            |
+| `DIGEST_TO_EMAIL`   | recipient; on the test domain must equal the Resend account email  | both                            |
+
+The `onboarding@resend.dev` test domain only delivers to the Resend account's own
+email. To send to arbitrary addresses, verify a domain in Resend and use an
+address on it for `RESEND_FROM_EMAIL`. Copy the key between services without
+printing it:
+
+```bash
+KEY="$(railway variables -s weekly-digest --kv | grep '^RESEND_API_KEY=' | cut -d= -f2-)"
+railway variables -s edgar-ingest --set "RESEND_API_KEY=$KEY" \
+  --set "RESEND_FROM_EMAIL=onboarding@resend.dev" \
+  --set "DIGEST_TO_EMAIL=<resend-account-email>"
+```
+
+For true "cron never ran" detection (which no in-process alert can catch), add an
+external dead-man's-switch (e.g. healthchecks.io) and ping it at the end of a
+successful run.
 
 ## Remaining dashboard steps (CLI cannot set these)
 
